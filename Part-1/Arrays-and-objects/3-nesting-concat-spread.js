@@ -19,24 +19,24 @@ console.log(allFruit);
 const bothFruitAndBerry = [...fruit,...berry];
 console.log(bothFruitAndBerry);
 
-//Flatten array
+// *Flatten array
 const arrToBeFlatten = [1,2,[3,4],5,[6,7],8];
 const flattenArray = arrToBeFlatten.flat();
 console.log(flattenArray);
 
-//Static methods on array object
+// *Static methods on array object
 
-//Check whether it is an array or not
+// *Check whether it is an array or not
 let arrOrNot = Array.isArray(arrToBeFlatten);
 console.log(arrOrNot);
 arrOrNot = Array.isArray('a');
 console.log(arrOrNot);
 
-//Create an array from string 
+// *Create an array from string 
 let createArrFromString = Array.from('123456');
 console.log(createArrFromString);
 
-//Create an array from set of values
+// *Create an array from set of values
 const a =1;
 const b = 2;
 const c = 3;
